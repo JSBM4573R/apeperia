@@ -36,6 +36,7 @@ html {
   width: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-size: var(--fz-lg);
 }
 
 body {
@@ -55,7 +56,7 @@ body {
 .header {
   position: absolute;
   width: 100%;
-  padding: 18px 40px;
+  padding: 1.125rem 2.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -76,14 +77,14 @@ body {
 }
 
 .menu__link {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   color: var(--bg-color-ceniza-medio);
 }
 
 .llamada {
   height: 400px;
   width: 100%;
-  padding-top: 95px;
+  padding-top: 5.9375rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/bg-intro.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -96,27 +97,81 @@ body {
 
 .llamada__titulo {
   text-align: center;
-  margin-top: 40px;
-  font-size: 52px;
+  margin-top: 2.5rem;
+  font-size: 3.25rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .llamada__texto {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 20px;
-  width: 580px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
+  width: 36.25rem;
   text-align: center;
   color: var(--bg-color-ceniza-medio);
 }
 
 .llamada__boton {
-  min-width: 350px;
+  min-width: 21.875rem;
   text-align: center;
-  padding: 18px;
-  font-size: 18px;
+  padding: 1.125rem;
+  font-size: 1.125rem;
   border: 1px solid var(--boton-rojo);
   font-weight: 700;
   border-radius: 5px;
+}
+
+.destacados {
+  margin: auto;
+  padding: 3.125rem 0;
+  background-color: var(--bg-color-azul-claro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.destacados__titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 2.25rem;
+  color: var(--fuente-ceniza-oscuro);
+}
+
+.destacado {
+  padding: 0 0 1.875rem 0;
+}
+
+.destacado__descripcion {
+  padding: .75rem 0;
+}
+
+.destacados__boton {
+  padding: 1.125rem;
+  min-width: 21.875rem;
+  border: 1px solid var(--boton-rojo);
+  border-radius: 5px;
+  color: var(--boton-rojo);
+  text-align: center;
+}
+
+@media screen and (max-width:1980px) {
+  html {
+    font-size: var(--fz-md);
+  }
+}
+
+@media screen and (max-width:850px) {
+  html {
+    font-size: var(--fz-sm);
+  }
+}
+
+@media screen and (max-width:485px) {
+  html {
+    font-size: var(--fz-xs);
+  }
 }
