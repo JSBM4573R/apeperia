@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --bg-color-llamada-mobile: #00161C;
+  --bg-color-blanco: #FFFFFF;
+  --bg-color-azul-claro: #DFE3F5;
+  --bg-color-ceniza-claro: #F7F4F4;
+  --bg-color-ceniza-medio: #D9D9D9;
+  --border-cabecera-mobile: #103D4A;
+  --boton-rojo: #B72E2E;
+  --fuente-ceniza-claro: #666666;
+  --fuente-ceniza-oscuro: #4F4C4C;
+  --planes-card-start: #035A76;
+  --planes-card-ultra: #690F8E;
+  --planes-card-mega: #B00024;
+  --fuente-enlace: #0006FF;
+  --bg-color-footer: #333333;
+  --fz-lg: 18px;
+  --fz-md: 16px;
+  --fz-sm: 14px;
+  --fz-xs: 12px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main {
+  margin: auto;
+  width: 100%;
+  min-height: 100%;
+}
+
