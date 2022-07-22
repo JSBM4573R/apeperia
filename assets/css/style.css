@@ -272,9 +272,12 @@ body {
   margin: auto;
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0 2.5rem;
 }
 
 .plan {
+  margin-top: 1.5625rem;
   min-width: 300px;
   height: 100%;
   padding: 1.125rem 0;
@@ -295,6 +298,7 @@ body {
 .plan:nth-child(2) {
   color: var(--planes-card-ultra);
   margin: 0 1.25rem;
+  margin-top: 1.5625rem;
   min-height: 21.875rem;
   justify-content: space-between;
 }
@@ -311,10 +315,6 @@ body {
   padding-bottom: .8125rem;
   font-weight: 700;
   border-bottom: 1px solid var(--bg-color-ceniza-medio);
-}
-
-.plan__contenido {
-  padding: 0 2.5rem;
 }
 
 .plan__precio {
@@ -406,7 +406,7 @@ body {
   color: var(--boton-rojo);
   border: 1px solid #B72E2E;
   border-radius: 5px;
-};
+}
 
 .institucional {
   width: 100%;
@@ -453,4 +453,26 @@ body {
   font-size: 1.25rem;
   color: var(--fuente-enlace);
   margin-bottom: 1.125rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 4.375rem 3.125rem 2.8125rem 3.125rem;
+  background-color: var(--bg-color-footer);
+}
+
+.footer__cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 38px;
+}
+
+.footer__logo img {
+  transform: translateY(5px);
+}
+
+.footer__icon {
+  width: 2.625rem;
+  margin-left: 20px;
 }
