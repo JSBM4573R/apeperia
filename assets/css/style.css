@@ -171,12 +171,17 @@ body {
 .diferenciales {
   margin: auto;
   width: 100%;
+  background: var(--bg-color-ceniza-claro);
+}
+
+.diferenciales__contenido {
+  margin: auto;
   height: 32.5rem;
-  padding: 5rem 9.375rem;
+  padding: 5rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--bg-color-ceniza-claro);
+  width: calc(100% - 30%);
 }
 
 .diferencial {
@@ -524,6 +529,16 @@ body {
   .llamada__texto {
     font-size: 1.25rem;
   }
+
+  .diferenciales__contenido {
+    height: 100%;
+    width: calc(100% - 55%);
+    flex-direction: column;
+  }
+  .diferencial {
+    margin-bottom: 3.125rem;
+  }
+  
 }
 
 @media screen and (max-width:350px) {
