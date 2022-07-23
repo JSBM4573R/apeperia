@@ -36,7 +36,7 @@ html {
   width: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-size: var(--fz-md);
+  font-size: var(--fz-lg);
 }
 
 body {
@@ -475,4 +475,49 @@ body {
 .footer__icon {
   width: 2.625rem;
   margin-left: 20px;
+}
+
+@media screen and (max-width:1980px) {
+  html {
+    font-size: var(--fz-md);
+  }  
+}
+
+@media screen and (max-width:769px) {
+  html {
+    font-size: var(--fz-sm);
+  } 
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    margin-top: 1.25rem;
+  }
+  .menu__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu__link {
+    margin-bottom: .625rem;
+  }
+  .llamada {
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .llamada__titulo {
+    font-size: 2rem;
+    margin-top: 7.5rem;
+  }
+  .llamada__texto {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width:350px) {
+  html {
+    font-size: var(--fz-sm);
+  }  
 }
