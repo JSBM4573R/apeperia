@@ -143,10 +143,16 @@ body {
 
 .destacado {
   padding: 0 0 1.875rem 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .destacado__descripcion {
   padding: .75rem 0;
+  font-weight: 700;
 }
 
 .destacados__boton {
@@ -156,6 +162,10 @@ body {
   border-radius: 5px;
   color: var(--boton-rojo);
   text-align: center;
+}
+
+.destacado__img {
+  width: calc(100% - 80px);
 }
 
 .diferenciales {
