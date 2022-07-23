@@ -502,6 +502,7 @@ body {
   html {
     font-size: var(--fz-sm);
   } 
+
   .header {
     flex-direction: column;
     justify-content: center;
@@ -537,6 +538,10 @@ body {
   }
   .diferencial {
     margin-bottom: 3.125rem;
+  }
+
+  .sobre__img {
+    display: none;
   }
   
 }
