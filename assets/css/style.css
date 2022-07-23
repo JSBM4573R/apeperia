@@ -555,15 +555,17 @@ body {
     flex-direction: column;
     padding: 0;
   }
-  .plan:nth-child(1) {
-
-  }
   .plan:nth-child(2) {
     margin: 0;
     margin-top: 1.5625rem;
   }
-  .plan:nth-child(3) {
-    
+
+  .institucional__contenido {
+    flex-direction: column;
+    width: 85%;
+  }
+  .institucional__video {
+    max-width: 100%;
   }
 }
 
