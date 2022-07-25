@@ -567,6 +567,13 @@ body {
   .institucional__video {
     max-width: 100%;
   }
+
+  .footer__cabecera {
+    flex-direction: column;
+  }
+  .footer__iconos {
+    margin-top: 1.25rem;
+  }
 }
 
 @media screen and (max-width:350px) {
