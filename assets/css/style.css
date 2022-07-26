@@ -529,6 +529,7 @@ body {
   }
   .llamada__texto {
     font-size: 1.25rem;
+    width: 80%;
   }
 
   .diferenciales__contenido {
@@ -576,8 +577,27 @@ body {
   }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:485px) {
   html {
     font-size: var(--fz-sm);
   }  
+
+  .header {
+    margin: auto;
+    padding: 1.125rem .625rem;
+  }
+  .llamada {
+    height: 450px;
+  }
+  .llamada__titulo {
+    margin-top: 9.375rem;
+    font-size: 2rem;
+    width: 80%;
+  }
+  .llamada__texto {
+    margin: 1.8rem 0;
+  }
+  .menu__link {
+    margin: 5px 15px;
+  }
 }
