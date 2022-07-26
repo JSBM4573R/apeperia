@@ -211,6 +211,9 @@ body {
 
 .diferencial__titulo {
   margin-left: .5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 .diferencial__logo {
@@ -219,6 +222,7 @@ body {
 
 .diferencial__descripcion {
   margin-left: 2rem;
+  line-height: 1.25rem;
 }
 
 .sobre {
@@ -611,4 +615,16 @@ body {
   .destacados__boton{
     font-weight: 700;
   }
+
+  .diferenciales{
+    min-height: 100%;
+  }
+  .diferenciales__contenido{
+    height: 100%;
+    width: calc(100% - 30%);
+  }
+  .diferencial{
+    max-height: 100%;
+  }
+  
 }
