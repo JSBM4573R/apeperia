@@ -227,7 +227,7 @@ body {
 
 .sobre {
   margin: auto;
-  padding: 50px 45px;
+  padding: 3.125rem 2.8125rem;
   display: flex;
 }
 
@@ -627,4 +627,13 @@ body {
     max-height: 100%;
   }
   
+  .sobre{
+    padding: 3.3rem 1.75rem;
+  }
+  .nosotros__titulo {
+    text-align: center;
+  }
+  .nosotros__texto:nth-child(4){
+    font-weight: 700;
+  }
 }
