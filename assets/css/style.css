@@ -600,4 +600,15 @@ body {
   .menu__link {
     margin: 5px 15px;
   }
+
+  .destacado__img {
+    width: 100%;
+  }
+  .destacado__descripcion{
+    width: 80%;
+    line-height: 1.5625rem;
+  }
+  .destacados__boton{
+    font-weight: 700;
+  }
 }
