@@ -653,4 +653,26 @@ body {
   .contacto__boton{
     min-width: 22.5rem;
   }
+
+  .institucional{
+    padding: 3.125rem 0;
+  }
+  .institucional__contenido{
+    width: 100%;
+  }
+  .institucional__datos{
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+  }
+  .institucional__direccion{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .institucional__telefono,
+  .institucional__correo{
+    text-align: center;
+  }
+  .institucional__video{
+    width: 100%;
+  }
 }
