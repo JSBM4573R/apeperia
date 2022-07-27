@@ -675,4 +675,12 @@ body {
   .institucional__video{
     width: 100%;
   }
+
+  .footer{
+    padding: 20px 10px 45px 10px;
+  }
+  .footer__iconos{
+    margin-top: 50px;
+  }
 }
+
