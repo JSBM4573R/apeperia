@@ -636,4 +636,17 @@ body {
   .nosotros__texto:nth-child(4){
     font-weight: 700;
   }
+
+  .planes{
+    padding: 3.125rem 0;
+  }
+  .plan{
+    min-width: 18.125rem;
+  }
+  .plan__cabecera{
+    font-size: 1.85rem;
+  }
+  .plan__contenido{
+    margin: 2rem 0;
+  }
 }
