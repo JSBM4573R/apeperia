@@ -649,4 +649,8 @@ body {
   .plan__contenido{
     margin: 2rem 0;
   }
+
+  .contacto__boton{
+    min-width: 22.5rem;
+  }
 }
