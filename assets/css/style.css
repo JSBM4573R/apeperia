@@ -684,3 +684,9 @@ body {
   }
 }
 
+@media screen and (max-width:328px) {
+  html {
+    font-size: var(--fz-xs);
+  }
+}
+
